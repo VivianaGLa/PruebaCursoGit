@@ -38,6 +38,5 @@ public class Mapa {
 
                 .collect(Collectors.toMap(Nombre::getNombre, Nombre::getApellido));
         System.out.println(mapNombre);
-
     }
 }
